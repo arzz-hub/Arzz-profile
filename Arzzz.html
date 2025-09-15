@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head : Arka.html>
+  <meta charset="UTF-8">
+  <meta name="Arka.html" content="Arka.html">
+  <title>Arzz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #dc2b14ff, #764ba2);
+    }
+
+    .profile-card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      text-align: center;
+      width: 340px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+      transform: scale(0.95);
+      opacity: 0;
+      animation: fadeIn 0.8s forwards ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .profile-card img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #667eea;
+      margin-bottom: 15px;
+      transition: 0.3s;
+    }
+
+    .profile-card img:hover {
+      transform: scale(1.05) rotate(2deg);
+    }
+
+    .profile-card h1 {
+      font-size: 24px;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .profile-card p {
+      font-size: 14px;
+      color: #666;
+      margin: 5px 0 15px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social-links a {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #2064b0ff;
+      border-radius: 50%;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      background: #c45612ff;
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="arzzz.png" alt="Foto Profil">
+    <h1> Arka </h1>
+    <p>💻 Digital class | 🪑 Student </p>
+    <p>📍 Indonesia</p>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@412_kaa?is_from_webapp=1&sender_device=pc">🎶</a>
+      <a href="https://www.facebook.com/share/1MRssVShBX/">f</a>
+      <a href="https://www.instagram.com/arzzzz000/?next=%2F">📷</a>
+    </div>
+  </div>
+</body>
+</html>
